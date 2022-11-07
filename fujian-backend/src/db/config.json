@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "postgres",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "jlzwquemnxaiqh",
+    "password": "36994f1a434f88cc2560bc46d10c4ff5d2c082ed1c45c64bcfe70f2f6e345a7b",
+    "database": "d80c6229qadnn2",
+    "host": "ec2-52-18-201-153.eu-west-1.compute.amazonaws.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "qgxcnixfvaqsrq",
+    "password": "a9016f88124a250c38234b02760ba03905104ac28658680430af6fc6a63444aa",
+    "database": "df88qh8rqsb59h",
+    "host": "ec2-52-31-70-136.eu-west-1.compute.amazonaws.com",
+    "dialect": "postgres"
+  }
+}

@@ -1,0 +1,74 @@
+.submarine {
+  display: flex;
+  flex-direction: column;
+
+  &--0, &--180, &--360 {
+    flex-direction: column;
+  }
+  &--90, &--270 {
+    flex-direction: row;
+  }
+
+  &__header {
+    height: 32px !important;
+    width: 32px !important;
+
+    &--0 {
+      rotate: 0deg;
+    }
+    &--90 {
+      rotate: 90deg;
+    }
+    &--180 {
+      rotate: 180deg;
+    }
+    &--270 {
+      rotate: 270deg;
+    }
+    &--360 {
+      rotate: 360deg;
+    }
+  }
+
+  &__body {
+    height: 32px !important;
+    width: 32px !important;
+
+    &--0 {
+      rotate: 0deg;
+    }
+    &--90 {
+      rotate: 90deg;
+    }
+    &--180 {
+      rotate: 180deg;
+    }
+    &--270 {
+      rotate: 270deg;
+    }
+    &--360 {
+      rotate: 360deg;
+    }
+  }
+
+  &__footer {
+    height: 32px !important;
+    width: 32px !important;
+
+    &--0 {
+      rotate: 180deg;
+    }
+    &--90 {
+      rotate: 270deg;
+    }
+    &--180 {
+      rotate: 360deg;
+    }
+    &--270 {
+      rotate: 90deg;
+    }
+    &--360 {
+      rotate: 180deg;
+    }
+  }
+}

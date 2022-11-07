@@ -1,0 +1,18 @@
+.ship-action {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px !important;
+    height: 32px !important;
+
+    &__icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.icon-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+
+  &--waiting {
+    background-color: #fd7e14;
+  }
+
+  &--playing {
+    background-color: #198754;
+  }
+}

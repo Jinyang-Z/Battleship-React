@@ -1,0 +1,47 @@
+.shipyard {
+  display: flex;
+  flex-direction: row;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+
+    &__label {
+      font-family: 'Futura';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 13px;
+      display: flex;
+      flex-grow: 1;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #717C96;
+      rotate: -90deg;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+
+    &__header {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      gap: 4px;
+    }
+
+    &__footer {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+
+}

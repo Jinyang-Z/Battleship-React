@@ -1,0 +1,15 @@
+.text-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+
+  &__label {
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,21 @@
+.createRoomModal {
+
+  &__form {
+    gap: 24px;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+
+      &__label {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        margin-bottom: 8px;
+      }
+    }
+  }  
+}

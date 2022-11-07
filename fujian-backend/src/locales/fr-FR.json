@@ -1,0 +1,11 @@
+{
+  "ForbiddenAccess": "Accès interdit",
+  "NotFound": "Introuvale",
+  "GlobalError": "Une erreur est survenue",
+  "EmailInvalid": "L'adresse email entrée a une syntax invalide",
+  "EmailAlreadyUsed": "L'adresse email est déjà utilisée",
+  "PseudoAlreadyUsed": "Le pseudo est déjà utilisée",
+  "SignInSuccess": "Connexion réussie",
+  "AccountCreated": "Compte crée avec succès",
+  "BadCredentials": "Email ou mot de passe incorrect, veuillez réessayer"
+}

@@ -1,0 +1,53 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+
+  &__section-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 1rem;
+
+    &__title {
+      font-family: 'Futura Std';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 49px;
+      line-height: 59px;
+  
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.19em;
+      text-transform: uppercase;
+      
+      color: #FAEC00;
+    }
+
+    &__logo {
+      width: 80%;
+      height: 30%;
+    }
+
+    &__buttons {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing {
+    &__section-main {
+      &__title {
+        font-size: 36px;
+        line-height: 42px;
+      }
+    }
+  }
+}

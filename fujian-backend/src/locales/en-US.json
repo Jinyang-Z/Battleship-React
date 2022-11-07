@@ -1,0 +1,11 @@
+{
+  "ForbiddenAccess": "Forbidden access",
+  "NotFound": "Not found",
+  "GlobalError": "An error occured",
+  "EmailInvalid": "The adress mail have an invalid syntax",
+  "EmailAlreadyUsed": "Email already used",
+  "PseudoAlreadyUsed": "Pseudo already used",
+  "SignInSuccess": "Sign in successful",
+  "AccountCreated": "Account created successfully",
+  "BadCredentials": "The email or password is not valid"
+}

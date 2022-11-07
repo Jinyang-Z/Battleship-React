@@ -1,0 +1,10 @@
+{
+  "ForbiddenAccess": "Accès interdit",
+  "NotFound": "Introuvale",
+  "GlobalError": "Une erreur est survenue",
+  "EmailInvalid": "L'adresse email entrée a une syntax invalide",
+  "EmailAlreadyUsed": "电子邮件已在使用中",
+  "PseudoAlreadyUsed": "Le pseudo est déjà utilisée",
+  "AccountCreated": "Compte crée avec succès",
+  "BadCredentials": "The email or password is not valid"
+}

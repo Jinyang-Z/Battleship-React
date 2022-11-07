@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+if npx lint-staged; then
+    echo "$(tput setaf 2)Everything is fine, you can push your work :) $(tput setaf 7)"
+else
+    echo "$(tput setaf 1)You can try to run npm run lint:fix to fix some errors.$(tput setaf 7)"
+    return 1
+fi
+

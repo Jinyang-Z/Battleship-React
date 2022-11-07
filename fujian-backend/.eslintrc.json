@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "airbnb-typescript/base",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "plugins": ["import"],
+  "rules": {
+    "no-console": 1,
+    "no-underscore-dangle": "off"
+  },
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "ignorePatterns": [
+    "node_module/",
+    "build/",
+    "src/locales/*.json",
+    "src/db/migrations/*.js",
+    "src/db/models/*.js"
+  ],
+  "overrides": [
+    {
+      "files": "*.ts",
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+      "extends": [
+        "airbnb-typescript/base",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+      ]
+    }
+  ]
+}

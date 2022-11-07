@@ -1,0 +1,84 @@
+.signIn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 2rem 2.625rem;
+
+    &__img {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    &__title {
+      padding-left: 30px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 30px;
+      color: #000000;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6rem;
+
+    &__image {
+      width: 840px;
+      height: 677px;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .signIn {
+    &__content {
+      &__image {
+        width: 600px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .signIn {
+    &__content {
+      margin: 0 3.5rem;
+
+      &__image {
+        width: 350px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .signIn {
+    &__content {
+      margin: 0 3.5rem;
+
+      &__image {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .signIn {
+    &__header {
+      &__title {
+        font-size: 24px;
+      }
+    }
+  }
+}

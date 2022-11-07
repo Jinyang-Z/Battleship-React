@@ -1,0 +1,64 @@
+.battleship {
+  &__header {
+    height: 32px !important;
+    width: 32px !important;
+
+    &--0 {
+      transform: rotate(0deg);
+    }
+    &--90 {
+      transform: rotate(90deg);
+    }
+    &--180 {
+      transform: rotate(180deg);
+    }
+    &--270 {
+      transform: rotate(270deg);
+    }
+    &--360 {
+      transform: rotate(360deg);
+    }
+  }
+
+  &__body {
+    height: 32px !important;
+    width: 32px !important;
+
+    &--0 {
+      transform: rotate(0deg);
+    }
+    &--90 {
+      transform: rotate(90deg);
+    }
+    &--180 {
+      transform: rotate(180deg);
+    }
+    &--270 {
+      transform: rotate(270deg);
+    }
+    &--360 {
+      transform: rotate(360deg);
+    }
+  }
+
+  &__footer {
+    height: 32px !important;
+    width: 32px !important;
+
+    &--0 {
+      transform: rotate(180deg);
+    }
+    &--90 {
+      transform: rotate(270deg);
+    }
+    &--180 {
+      transform: rotate(360deg);
+    }
+    &--270 {
+      transform: rotate(90deg);
+    }
+    &--360 {
+      transform: rotate(180deg);
+    }
+  }
+}
